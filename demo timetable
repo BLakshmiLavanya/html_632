@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Table</title>
+</head>
+<body>
+
+<h2 align="center">Time Table</h2>
+
+<table border="3" cellspacing="5" cellpadding="10">
+    
+    <!-- Main Heading -->
+    <tr>
+        <th colspan="6">Time Table</th>
+    </tr>
+
+    <!-- Days and Time -->
+    <tr>
+        <th>Day/Period</th>
+        <th>9:00-09:55</th>
+        <th>09:55-10:50</th>
+        <th>11:00-12:00</th>
+        <th>12:00-1:00</th>
+        <th>1:00-2:00</th>
+    </tr>
+
+    <!-- Monday -->
+    <tr>
+        <td>Monday</td>
+        <td>P&S</td>
+        <td>OS</td>
+        <td rowspan="5">LUNCH</td>
+        <td>DBMS</td>
+        <td>MEFA</td>
+    </tr>
+
+    <!-- Tuesday -->
+    <tr>
+        <td>Tuesday</td>
+        <td>SE</td>
+        <td>P&S</td>
+        <td>FSD</td>
+        <td>D&I</td>
+    </tr>
+
+    <!-- Wednesday -->
+    <tr>
+        <td>Wednesday</td>
+        <td>SE</td>
+        <td>OS</td>
+        <td colspan="2">Lab (D&I Lab)</td>
+    </tr>
+
+    <!-- Thursday -->
+    <tr>
+        <td>Thursday</td>
+        <td>P&S</td>
+        <td>SE</td>
+        <td>DBMS</td>
+        <td>OS</td>
+    </tr>
+
+    <!-- Friday -->
+    <tr>
+        <td>Friday</td>
+        <td colspan="2">OS</td>
+        <td>P&S</td>
+        <td>SE</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

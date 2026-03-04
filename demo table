@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+</head>
+<body>
+
+<h2>Working of HTML Tables</h2>
+
+<table border="1">
+    
+    <!-- Heading Row with colspan -->
+    <tr>
+        <th colspan="3">Student Details</th>
+    </tr>
+
+    <!-- Column Headings -->
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+    </tr>
+
+    <!-- Normal Row -->
+    <tr>
+        <td>32</td>
+        <td>Lavanya</td>
+        <td>81</td>
+    </tr>
+
+    <!-- Rowspan Example -->
+    <tr>
+        <td rowspan="2">2</td>
+        <td>Durga</td>
+        <td>90</td>
+    </tr>
+
+    <tr>
+        <td>Durga (Practical)</td>
+        <td>88</td>
+    </tr>
+
+</table>
+
+<p><b>Explanation:</b></p>
+<p>
+&lt;table&gt; creates a table.<br>
+&lt;tr&gt; creates a row.<br>
+&lt;th&gt; creates a heading cell.<br>
+&lt;td&gt; creates a data cell.<br>
+border attribute adds border.<br>
+colspan merges columns.<br>
+rowspan merges rows.
+</p>
+
+</body>
+</html>
