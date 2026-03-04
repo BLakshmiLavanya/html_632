@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames Example</title>
+</head>
+
+<!-- Dividing page into 3 vertical frames -->
+<frameset cols="30%,40%,30%" noresize>
+
+    <!-- First Frame : Image -->
+    <frame src="data:text/html,
+    <html>
+    <body align='center'>
+    <h3>Image Frame</h3>
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkiIpCTXowILNQmeYVEyx2KryCGnNgt3EPtg&s' alt='Sample Image'>
+    </body>
+    </html>">
+
+    <!-- Second Frame : Paragraph -->
+    <frame src="data:text/html,
+    <html>
+    <body>
+    <h3>Paragraph Frame</h3>
+    <p>
+    Frames divide the browser window into different sections.
+    Each frame can display a separate HTML document.
+    This example shows three vertical frames.
+    </p>
+    </body>
+    </html>">
+
+    <!-- Third Frame : Hyperlink -->
+    <frame src="data:text/html,
+    <html>
+    <body align='center'>
+    <h3>Hyperlink Frame</h3>
+    <a href='https://www.google.com' target='_blank'>Visit Google</a>
+    </body>
+    </html>">
+
+    <!-- If browser does not support frames -->
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+
+</frameset>
+
+</html>
