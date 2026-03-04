@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hyperlink Example</title>
+</head>
+<body>
+
+<h2>Working of Hyperlinks in HTML</h2>
+
+<p>
+    1. Open Google in the same tab:
+    <a href="https://www.google.com">Visit Google</a>
+</p>
+
+<p>
+    2. Open YouTube in a new tab:
+    <a href="https://www.youtube.com" target="_blank">Visit YouTube</a>
+</p>
+
+<p>
+    4. Link to another page (example: about.html):
+    <a href="about.html">Go to About Page</a>
+</p>
+
+</body>
+</html>
