@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML5 Tags</title>
+</head>
+<body>
+
+<header>
+    <h1>My Page</h1>
+</header>
+
+<nav>
+    <span>Home</span> | 
+    <span>About</span>
+</nav>
+
+<main>
+    <section>
+        <article>
+            <h2>Article</h2>
+            <p>This is a <span>simple</span> article.</p>
+        </article>
+
+        <figure>
+            <img src="image.jpg" width="100">
+            <figcaption>Sample Image</figcaption>
+        </figure>
+
+        <div>
+            <p>This is inside a div.</p>
+        </div>
+    </section>
+
+    <aside>
+        <p>This is aside content.</p>
+    </aside>
+</main>
+
+<footer>
+    <p>Footer text</p>
+</footer>
+
+</body>
+</html>
